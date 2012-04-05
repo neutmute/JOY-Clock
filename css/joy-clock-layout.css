@@ -1,0 +1,131 @@
+@font-face { font-family: BasicManual; src: url('../images/SVBasicManual.ttf'); }
+
+body {
+    background: #000;
+    color: #fff;
+}
+
+#bounding-box {
+    width: 1000px;
+    height: 740px;
+    margin: 0px auto;
+}
+
+#inner-box {
+    width: 100%;
+    text-align: center;
+}
+
+#analog-clock {
+    display: inline;
+}
+
+#date-block {
+    margin: 10px;
+    height: 200px;
+    width: 200px;
+    float: left;
+    background-image: url('../images/date-background.png');
+}
+
+#date-block .day {
+    height: 60px;
+    width: 200px;
+    vertical-align: middle;
+    line-height: 64px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26pt;
+}
+
+#date-block .date {
+    height: 70px;
+    width: 200px;
+    vertical-align: middle;
+    line-height: 90px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 48pt;
+    font-weight: bold;
+    text-align: center;
+}
+
+#date-block .month-year {
+    height: 50px;
+    width: 200px;
+    vertical-align: middle;
+    line-height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28pt;
+    font-weight: bold;
+    text-align: center;
+}
+
+#logo img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+/* .container {width: 960px; margin: 0 auto; overflow: hidden;} */
+
+/* .clock { width:800px; margin:0 auto; padding:30px; color:#a3ff1e; } */
+#clock {
+/*    display: block; */
+    padding:30px;
+    color:#a3ff1e;
+}
+
+/* ul { width:800px; margin:0 auto; padding:0px; list-style:none; text-align:center; }
+ul li { display:inline; font-size:5em; text-align:center; font-family:'GreenLights', Arial, Helvetica, sans-serif; }
+JOY BLUE: #005bab;
+JOY PINK: d60d8c;
+*/
+
+ul { width:800px; margin:0 auto; padding:0px; list-style:none; text-align:center; }
+/* ul li { display:inline; font-size:8em; text-align:center; font-family:'GreenLights', Arial, Helvetica, sans-serif; } */
+ul li { display:inline; font-size:8em; text-align:center; font-family: "Courier New", Courier, monospace; }
+
+#radio-clock {
+    height: 40px;
+    text-align: center;
+    font-size:30pt;
+    font-weight: bold;
+	font-family: Helvetica, Arial, sans-serif;
+	/*color: #005dad; */
+	color: white;
+	background-color: #d60d8c;
+	border-radius: 15px;
+	padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#weather {
+    height: 40px;
+    text-align: center;
+    font-size:30pt;
+    font-weight: bold;
+	font-family: Helvetica, Arial, sans-serif;
+	/*color: #005dad; */
+	color: white;
+	border-radius: 15px;
+	padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: #005bab;
+}
+
+#radio-clock .highlight {
+    /* color: #d8108c; */
+    
+}
+
+#weather .current {
+	/* color: #d8108c; */
+}
+
+#weather .hilowtemp {
+	/* color: #d8108c; */
+}

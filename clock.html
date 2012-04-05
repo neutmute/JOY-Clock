@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8"/>
+		<title>JOY On-Air Clock</title>
+
+		<style>
+        		@import "css/reset.css";
+			@import "css/joy-clock-layout.css";
+		</style>
+		
+		<script src="js/jquery-1.7.1.min.js"></script>
+		<!--[if IE]><script type="text/javascript" src="js/excanvas.js"></script><![endif]-->
+	        <script type="text/javascript" src="js/coolclock.js"></script>
+		<script src="js/digital-clock.js"></script>
+		<script src="js/wunderground.js"></script>
+
+	</head>
+
+	<body>
+	<div id="bounding-box">
+        <div id="date-block">
+            <p class="day">Wednesday</p>
+            <p class="date">31</p>
+            <span class="month-year">
+                <p class="month">Month</p>
+            </span>
+        </div>
+
+        <div id="inner-box">
+
+            <canvas id="analog-clock" class="CoolClock:joy:325:::showDigital"></canvas>
+
+        </div>
+        <div id="radio-clock">
+                <!-- <p><span class="prefix">Prefix</span> <span class="time-string">Time string</span></p> -->
+                <p>It is <span class="time-string">Time string</span></p>
+        </div>
+        <div id="weather">It is currently <span class="current">currentTemp</span> with <span class="timeofday">timeString</span> of <span class="hilowtemp">forecastTemp</span>
+        </div>
+
+        
+	</div>
+
+	</body>
+</html>
