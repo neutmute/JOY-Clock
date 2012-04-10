@@ -2,7 +2,7 @@ jQuery(document).ready(function($) {
 
 	
 	$.ajax({
-		url: "http://api.wunderground.com/api/bbc6332f8bd0848f/geolookup/conditions/forecast/q/Australia/Melbourne.json",
+		url: "http://api.wunderground.com/api/UUID/geolookup/conditions/forecast/q/Australia/Melbourne.json",
 		dataType: "jsonp",
 		success: function(parsed_json) {
 		
@@ -30,7 +30,7 @@ jQuery(document).ready(function($) {
 	setInterval( function() {
 	
 		$.ajax({
-		url: "http://api.wunderground.com/api/bbc6332f8bd0848f/geolookup/conditions/forecast/q/Australia/Melbourne.json",
+		url: "http://api.wunderground.com/api/UUID/geolookup/conditions/forecast/q/Australia/Melbourne.json",
 		dataType: "jsonp",
 		success: function(parsed_json) {
 		
