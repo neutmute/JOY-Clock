@@ -92,9 +92,9 @@ ul li { display:inline; font-size:8em; text-align:center; font-family: "Courier 
     font-weight: bold;
 	font-family: Helvetica, Arial, sans-serif;
 	/*color: #005dad; */
-	color: white;
-	background-color: #d60d8c;
-	border-radius: 15px;
+	color: black;
+	background-color: white;
+	/* border-radius: 15px; */
 	padding: 5px;
     margin-left: auto;
     margin-right: auto;
@@ -108,13 +108,13 @@ ul li { display:inline; font-size:8em; text-align:center; font-family: "Courier 
     font-weight: bold;
 	font-family: Helvetica, Arial, sans-serif;
 	/*color: #005dad; */
-	color: white;
-	border-radius: 15px;
+	color: black;
+	/* border-radius: 15px; */
 	padding: 5px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    background-color: #005bab;
+    background-color: white;
 }
 
 #radio-clock .highlight {
