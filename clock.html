@@ -3,7 +3,7 @@
 
 	<head>
 		<meta charset="UTF-8"/>
-		<title>JOY On-Air Clock</title>
+		<title>On-Air Clock</title>
 
 		<style>
         		@import "css/reset.css";
@@ -14,7 +14,13 @@
 		<!--[if IE]><script type="text/javascript" src="js/excanvas.js"></script><![endif]-->
 	        <script type="text/javascript" src="js/coolclock.js"></script>
 		<script src="js/digital-clock.js"></script>
-		<script src="js/wunderground.js"></script>
+		
+		<script type="text/javascript">
+     function myCallback(json) {
+          window.CoolClock.prototype.refreshDisplay(json.dateString);
+     }
+</script>
+		<script type="text/javascript" src="http://www.timeapi.org/utc/in+five+hours.json?callback=myCallback"></script>
 
 	</head>
 

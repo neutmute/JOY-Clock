@@ -290,7 +290,15 @@ CoolClock.prototype = {
 
 	// Check the time and display the clock
 	refreshDisplay: function() {
+		
+		$.getJSON( "http://www.timeapi.org/utc/in+five+hours.json", function( json ) {
+		  console.log( "JSON Data: " + json.users[ 3 ].name );
+		 });
 		var now = new Date();
+		// if (json)
+		// {
+			// var now = new Date(json.dateString); //new Date();
+		// }
 		if (this.gmtOffset != null) {
 			// Use GMT + gmtOffset
 			var offsetNow = new Date(now.valueOf() + (this.gmtOffset * 1000 * 60 * 60));
