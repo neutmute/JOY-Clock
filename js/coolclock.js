@@ -118,7 +118,7 @@ CoolClock.prototype = {
 //		this.logoImg.onload = function () {
 		    //this.drawLogo(this.logoImg, 0, 0, 0, 0);
 //		};
-		this.logoImg.src = 'images/joy-logo.png';
+		this.logoImg.src = 'images/One_black_Pixel.png';
 
 		// Start the clock going
 		this.tick();
